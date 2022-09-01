@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* navbar */
+.navbar {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.logo img {
+  width: 80px;
+}
+.navbar .hamburger {
+}
+.list {
+  display: none;
+}
+
+.line {
+  background-color: black;
+  height: 3px;
+  width: 30px;
+  margin: 3px 0px;
+}
+/* Hero section  */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero-left {
+  order: 2;
+  margin: 50px 20px;
+}
+.hero-left h1 {
+  font-size: 1.2rem;
+}
+.hero-left p {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.hero-left button {
+  color: #fff;
+  /* linear gradient from left to right */
+  /* background-color: #0881ee;
+  #0FB3F6, */
+  background: linear-gradient(to right, #0fb3f6, #0881ee);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 300;
+}
+.hero-right {
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Testing section */
+.testing-left {
+  margin: 50px 20px;
+}
+.testing-right {
+  margin: 50px 20px;
+}
+.testing-right h2 {
+  font-size: 1.2rem;
+}
+.testing-right p {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.testing button {
+  background: linear-gradient(to right, #0fb3f6, #0881ee);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 300;
+  color: #fff;
+}
+.technical-section {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px;
+}
+.technical-section-left {
+  order: 2;
+}
+.technical-section-left h2 {
+  font-size: 1.5rem;
+}
+.technical-section-left p {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.technical-section-left button {
+  background: linear-gradient(to right, #0fb3f6, #0881ee);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 300;
+  color: #fff;
+}
+.technical-section-right {
+  margin: 50px 20px;
+}
+
+/* Service Section */
+.services-section {
+  margin: 50px 20px;
+}
+.services-headline h2 {
+  font-size: 1.5rem;
+}
+.services-headline p {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+/* Card  */
+.services-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  margin: auto;
+}
+.card h4 {
+  margin: 20px 0px;
+}
+.card p {
+  margin: 20px 0px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+/* Pricing section */
+.pricing-wrapper {
+  background: linear-gradient(to right, #0fb3f6, #0881ee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+.pricing-wrapper h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 50px 20px;
+}
+.pricing {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-card {
+  padding: 40px;
+  text-align: justify;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.card-heading h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.card-heading p {
+  font-size: 0.6rem;
+  font-weight: 300;
+  margin: 10px 0px;
+}
+
+.pricing-card-body ul {
+  list-style-type: none;
+  margin: 30px 0px;
+}
+.pricing-card-body li {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 0.5rem;
+  color: #5d596c;
+}
+.pricing-card-body li span {
+  border: 1px solid #20daaa;
+  border-radius: 50%;
+  margin: 4px;
+  padding: 2px;
+  color: #20daaa;
+}
+.pricing-card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-card-footer h4 {
+  font-size: 1.2rem;
+}
+.pricing-card-footer span {
+  color: #8787a0;
+}
+.pricing-card-footer p {
+  color: #8f8c9e;
+  font-size: 0.6rem;
+  margin: 10px 0px 20px 0px;
+  text-align: center;
+}
+.pricing-card-footer button {
+  border: 1px solid #11c0f8;
+  background-color: #fff;
+  color: #11c0f8;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* Customer Section */
+.customer-section {
+  background-color: #fdfeff;
+}
+.customer-section h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+.customer-section > p {
+  color: #c1bcd2;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 20px 2px;
+}
+
+/* Customer Cards */
+.customer-cards {
+  display: grid;
+}
+.customer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  background-color: #fdfeff;
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 2px #888888;
+}
+
+/* Footer */
+.footer-wrapper {
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/footer-bg.svg");
+  color: #ffff;
+  justify-content: center;
+  padding: 20px;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-left h1 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+.footer-left p {
+  margin: 20px 0px;
+}
+.footer-right button {
+  margin: 50px 0px;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* bottom footer */
+.bottom-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px 0px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.logo-container p {
+  color: #a1a1a2;
+  margin-top: 20px;
+}
+.footer-navbar {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin: 20px 1px;
+  flex-wrap: wrap;
+}
+.footer-navbar ul {
+  list-style: none;
+  color: #6e6e6e;
+  font-size: 0.8rem;
+  line-height: 2;
+  margin-top: 10px;
+}
+.footer-navbar h5 {
+  font-size: 1.2rem;
+}
+
+.footer-navbar .icon h {
+  margin: auto;
+}
+
+.footer-navbar .icon ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-navbar .icon img {
+  width: 1.2rem;
+}
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+  /* Navbar */
+  .hamburger {
+    display: none;
+  }
+  .navbar .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    list-style: none;
+    gap: 5px;
+  }
+  .list-item button {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #0fb3f6;
+    color: #0881ee;
+    border-radius: 7px;
+  }
+
+  /* Hero section */
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .hero .hero-left {
+    flex: 2;
+  }
+  .hero-left h1 {
+    font-size: 3rem;
+  }
+  .hero-right {
+    flex: 1.5;
+  }
+  .hero-right img {
+    width: 100%;
+  }
+
+  /* testing */
+  .testing {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .testing-left {
+    flex: 2;
+  }
+  .testing-right h2 {
+    font-size: 3rem;
+  }
+  .testing-right {
+    flex: 2;
+    padding: 4rem;
+  }
+  .testing-left img {
+    width: 100%;
+  }
+
+  /* Technical */
+  .technical-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .technical-section .technical-section-left {
+    flex: 2;
+  }
+  .technical-section-left h2 {
+    font-size: 3rem;
+  }
+  .technical-section-right {
+    flex: 1.5;
+  }
+  .technical-section-right img {
+    width: 100%;
+  }
+  /* Services section */
+  .services-headline {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .services-headline h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  /* pricing section */
+  .pricing {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  /* Customer section */
+  .customer-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
