@@ -8,7 +8,7 @@
 
 ![name](https://img.shields.io/badge/Pradip-kafle-lightgrey)
 
-## Project 11 [Live Link](https://live-proj-11.netlify.app)
+## Project 11 [Live Link](https://project-11-hosting-landingpage.netlify.app/)
 
 
 ---
@@ -17,4 +17,4 @@
 
 #### Screenshot
 
-![Desktop](./screenshots/project-11.png)
+![Desktop](./screenshots/desktopdemo.png)
